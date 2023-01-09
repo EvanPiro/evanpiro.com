@@ -1,6 +1,6 @@
-module View exposing (View, map, placeholder)
+module View exposing (View, map, readme)
 
-import Html exposing (Html)
+import Html exposing (Html, div)
 
 
 type alias View msg =
@@ -16,8 +16,8 @@ map fn doc =
     }
 
 
-placeholder : String -> View msg
-placeholder moduleName =
-    { title = "Placeholder - " ++ moduleName
-    , body = [ Html.text moduleName ]
+readme : List (Html msg) -> View msg
+readme html =
+    { title = "Evan Piro"
+    , body = [ div [] html ]
     }
