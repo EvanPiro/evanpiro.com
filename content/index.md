@@ -7,6 +7,7 @@
 ## Current Projects
 - [Legiswipe.com](https://legiswipe.com/)
 - [clicknmint.com](https://clicknmint.com/)
+- [0ve.life](https://0ve.life/)
 - [Buffernaut.com](https://buffernaut.com/)
 
 
