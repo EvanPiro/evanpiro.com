@@ -70,8 +70,8 @@ head static =
         , image =
             { url = Pages.Url.fromPath <| Path.fromString "/Evan.svg"
             , alt = "evanpiro.com logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
+            , dimensions = Just { width = 15, height = 15 }
+            , mimeType = Just "image/svg+xml"
             }
         , description = "Forward Thinking Engineer, Avid Technologist"
         , locale = Nothing

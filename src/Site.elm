@@ -2,7 +2,9 @@ module Site exposing (config)
 
 import DataSource
 import Head
-import Pages.Manifest as Manifest
+import Pages.Manifest as Manifest exposing (IconPurpose(..))
+import Pages.Url
+import Path
 import Route
 import SiteConfig exposing (SiteConfig)
 
@@ -37,5 +39,11 @@ manifest static =
         { name = "Evan Piro"
         , description = "Forward Thinking Engineer, Avid Technologist"
         , startUrl = Route.Index |> Route.toPath
-        , icons = []
+        , icons =
+            [ { src = Pages.Url.fromPath <| Path.fromString "/Evan-logo.png"
+              , sizes = [ ( 16, 16 ) ]
+              , mimeType = Nothing
+              , purposes = [ IconPurposeAny ]
+              }
+            ]
         }
