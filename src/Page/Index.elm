@@ -11,6 +11,7 @@ import OptimizedDecoder as Decode exposing (Decoder)
 import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
+import Path
 import Shared
 import View exposing (View)
 
@@ -67,12 +68,12 @@ head static =
         { canonicalUrlOverride = Nothing
         , siteName = "evanpiro.com"
         , image =
-            { url = Pages.Url.external "TODO"
+            { url = Pages.Url.fromPath <| Path.fromString "/Evan.svg"
             , alt = "evanpiro.com logo"
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "Evan Piro"
+        , description = "Forward Thinking Engineer, Avid Technologist"
         , locale = Nothing
         , title = "Evan Piro" -- metadata.title -- TODO
         }
