@@ -68,9 +68,9 @@ head static =
         { canonicalUrlOverride = Nothing
         , siteName = "evanpiro.com"
         , image =
-            { url = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
+            { url = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Larger.png"
             , alt = "evanpiro.com logo"
-            , dimensions = Just { width = 162, height = 162 }
+            , dimensions = Just { width = 478, height = 478 }
             , mimeType = Just "image/png"
             }
         , description = siteTag
