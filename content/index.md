@@ -1,6 +1,6 @@
 # Evan Piro
 
-Forward-thinking technologist with a decade of professional software engineering experience and a proclivity for Elm, Functional TypeScript, Solidity, and AWS providing services for planning, building, and deploying your next great project.
+Forward-thinking technologist with a decade of professional software engineering experience and a proclivity for Elm, Functional TypeScript, Solidity, Haskell, and AWS providing services for planning, building, and deploying your next great project.
 
 [Book me for a quick chat!](https://calendly.com/evanpiro)
 

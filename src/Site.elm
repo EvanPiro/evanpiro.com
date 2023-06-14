@@ -57,7 +57,7 @@ manifest : Data -> Manifest.Config
 manifest static =
     Manifest.init
         { name = "Evan Piro"
-        , description = "Experienced technologist offering project management and development services for Elm, Functional TypeScript, Solidity, and AWS."
+        , description = siteTag
         , startUrl = Route.Index |> Route.toPath
         , icons =
             [ { src = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
