@@ -12,6 +12,7 @@ import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Path
 import Shared
+import StaticContent exposing (siteTag)
 import View exposing (View)
 
 
@@ -67,12 +68,12 @@ head static =
         { canonicalUrlOverride = Nothing
         , siteName = "evanpiro.com"
         , image =
-            { url = Pages.Url.fromPath <| Path.fromString "/Evan.svg"
+            { url = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
             , alt = "evanpiro.com logo"
-            , dimensions = Just { width = 15, height = 15 }
-            , mimeType = Just "image/svg+xml"
+            , dimensions = Just { width = 162, height = 162 }
+            , mimeType = Just "image/png"
             }
-        , description = "Experienced technologist offering project management and development services for Elm, Functional TypeScript, Solidity, and AWS."
+        , description = siteTag
         , locale = Nothing
         , title = "Evan Piro" -- metadata.title -- TODO
         }

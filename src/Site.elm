@@ -8,15 +8,11 @@ import Pages.Url
 import Path
 import Route
 import SiteConfig exposing (SiteConfig)
+import StaticContent exposing (siteTag)
 
 
 type alias Data =
     ()
-
-
-siteTag : String
-siteTag =
-    "Experienced technologist offering project management and development services for Elm, Functional TypeScript, Solidity, and AWS."
 
 
 config : SiteConfig Data
