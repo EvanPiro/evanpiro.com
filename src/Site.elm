@@ -2,6 +2,7 @@ module Site exposing (config)
 
 import DataSource
 import Head
+import Head.Seo as Seo
 import Pages.Manifest as Manifest exposing (IconPurpose(..))
 import Pages.Url
 import Path
@@ -11,6 +12,11 @@ import SiteConfig exposing (SiteConfig)
 
 type alias Data =
     ()
+
+
+siteTag : String
+siteTag =
+    "Experienced technologist offering project management and development services for Elm, Functional TypeScript, Solidity, and AWS."
 
 
 config : SiteConfig Data
@@ -29,8 +35,26 @@ data =
 
 head : Data -> List Head.Tag
 head static =
-    [ Head.sitemapLink "/sitemap.xml"
-    ]
+    Seo.summaryLarge
+        { canonicalUrlOverride = Nothing
+        , siteName = "Evan Piro"
+        , image =
+            { url = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
+            , alt = "Evan Piro Logo"
+            , mimeType = Just "image/png"
+            , dimensions = Just { width = 162, height = 162 }
+            }
+        , description = siteTag
+        , locale = Nothing
+        , title = "Evan Piro"
+        }
+        |> Seo.article
+            { tags = []
+            , section = Nothing
+            , publishedTime = Nothing
+            , modifiedTime = Nothing
+            , expirationTime = Nothing
+            }
 
 
 manifest : Data -> Manifest.Config
