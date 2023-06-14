@@ -37,7 +37,7 @@ manifest : Data -> Manifest.Config
 manifest static =
     Manifest.init
         { name = "Evan Piro"
-        , description = "Forward Thinking Engineer, Avid Technologist"
+        , description = "Forward Thinking Engineer, Avid Technologist currently providing services for planning and building your next great project."
         , startUrl = Route.Index |> Route.toPath
         , icons =
             [ { src = Pages.Url.fromPath <| Path.fromString "/favicon.png"

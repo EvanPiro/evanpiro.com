@@ -1,5 +1,9 @@
 # Evan Piro
 
+Forward Thinking Technologist with a proclivity for Elm, Functional TypeScript, Solidity, and AWS providing services for planning, building, and deploying your next great project.
+
+[Book me for a quick chat!](https://calendly.com/evanpiro)
+
 ## Connect
 - [Resume](https://bafkreicnvxeblidmud4r3mgi6ittmywo576dauzq3ohcmurjpmi6ams7ju.ipfs.nftstorage.link/)
 - [Github](https://github.com/EvanPiro)

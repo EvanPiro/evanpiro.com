@@ -7,7 +7,6 @@ import Head.Seo as Seo
 import Html exposing (Html)
 import Markdown.Parser
 import Markdown.Renderer
-import OptimizedDecoder as Decode exposing (Decoder)
 import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
@@ -73,7 +72,7 @@ head static =
             , dimensions = Just { width = 15, height = 15 }
             , mimeType = Just "image/svg+xml"
             }
-        , description = "Forward Thinking Engineer, Avid Technologist"
+        , description = "Forward Thinking Technologist with a proclivity for Elm, Functional TypeScript, Solidity, and AWS providing services for planning, building, and deploying your next great project."
         , locale = Nothing
         , title = "Evan Piro" -- metadata.title -- TODO
         }
