@@ -40,7 +40,12 @@ manifest static =
         , description = "Forward Thinking Engineer, Avid Technologist currently providing services for planning and building your next great project."
         , startUrl = Route.Index |> Route.toPath
         , icons =
-            [ { src = Pages.Url.fromPath <| Path.fromString "/favicon.png"
+            [ { src = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
+              , sizes = [ ( 162, 162 ) ]
+              , mimeType = Nothing
+              , purposes = [ IconPurposeAny ]
+              }
+            , { src = Pages.Url.fromPath <| Path.fromString "/favicon.png"
               , sizes = [ ( 16, 16 ) ]
               , mimeType = Nothing
               , purposes = [ IconPurposeAny ]
