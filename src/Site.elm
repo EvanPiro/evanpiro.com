@@ -60,7 +60,12 @@ manifest static =
         , description = siteTag
         , startUrl = Route.Index |> Route.toPath
         , icons =
-            [ { src = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
+            [ { src = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Larger.png"
+              , sizes = [ ( 478, 478 ) ]
+              , mimeType = Nothing
+              , purposes = [ IconPurposeAny ]
+              }
+            , { src = Pages.Url.fromPath <| Path.fromString "/Evan-Logo-Large.png"
               , sizes = [ ( 162, 162 ) ]
               , mimeType = Nothing
               , purposes = [ IconPurposeAny ]
