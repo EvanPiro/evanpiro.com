@@ -5,7 +5,7 @@ Forward-thinking technologist with a decade of professional software engineering
 [Book me for a quick chat!](https://calendly.com/evanpiro)
 
 ## Connect
-- [Resume](https://bafkreicnvxeblidmud4r3mgi6ittmywo576dauzq3ohcmurjpmi6ams7ju.ipfs.nftstorage.link/)
+- [Resume](https://bafkreicrravsuugekm4lzgoalzitx5wg46pjj3zgbryia7pghf3cfehsgy.ipfs.nftstorage.link/)
 - [Github](https://github.com/EvanPiro)
 - [LinkedIn](https://www.linkedin.com/in/evan-piro-7688a8192/)
 
