@@ -19,9 +19,7 @@ Democracy, one bill at a time.
 
 [legiswipe.com](https://legiswipe.com/)
 
-[Repo](https://github.com/EvanPiro/legiswipe-web)
-
-
+[Twitter Bot](https://twitter.com/legiswipe)
 
 ---
 
