@@ -11,6 +11,12 @@ Forward-thinking technologist with a decade of professional software engineering
 
 ## Current Projects
 
+### Amor Deorum
+
+Ever-modern autonomous historian, unfolding the past over the present.
+
+[Twitter Bot](https://twitter.com/AmorDeorum)
+
 ---
 
 ### [![](/legiswipe-logo.svg)](https://legiswipe.com/)
