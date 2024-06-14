@@ -29,7 +29,7 @@ Forward-thinking technologist with over a decade of professional software engine
 **Platonic Systems, Remote** — *Haskell Consultant*  
 *January 2022 - May 2023*
 - Worked with a global team of engineers to design and develop digital asset tech including hardware security module signing, localized deterministic contract testing, nix-driven build environments, browser wallet integrations, and live contracts.
-- Implemented the AlgoBull NFT minting contract and UX. See the code here: [Contract Code with Foundry](https://github.com/ANDREWBTC707/-ALGOBULL), [Elm Frontend](https://github.com/ANDREWBTC707/Algobull-web)
+- Implemented the AlgoBull NFT minting contract and UX. See the code here: [Contract Code with Foundry](https://github.com/ANDREWBTC707/-ALGOBULL/blob/main/src/AlgoBull.sol), [Elm Frontend](https://github.com/ANDREWBTC707/Algobull-web)
 
 **4US, NYC** — *Chief Technology Officer*  
 *October 2020 - January 2022* 
