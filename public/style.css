@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Avenir';
-    src: url('./avenir_ff/AvenirLTStd-Book.otf') format('opentype');
+    font-family: 'Inter';
+    src: url('inter/Inter-Regular.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
 }
 
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('./avenir_ff/AvenirLTStd-Black.otf') format('opentype');
+    font-family: 'Inter';
+    src: url('inter/Inter-SemiBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -17,13 +17,15 @@
     height: inherit;
 }
 
+
+
 body {
-    font-family: 'Avenir', 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
     margin: 0 auto;
     padding: 1rem;
-    max-width: 500px;
+    max-width: 600px;
     font-size: 1rem;
-    color: #224455;
+    /*color: #224455;*/
     line-height: 1.5rem;
 }
 
