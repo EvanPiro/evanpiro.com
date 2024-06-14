@@ -14,6 +14,7 @@ Forward-thinking technologist with over a decade of professional software engine
 **ChalktalkAI, NYC** — *Cofounder*  
 *July 2023 - Now*
 - Building meeting software for executive and public committees utilizing LLMs for reporting and analysis of meeting audio. The product is currently undergoing testing with a large country club.
+- The project utilizes Elm, TypeScript, Cloudflare, and a plethora of LLMs.
 
 **PR Gavin (Project)** — *Creator*  
 *February 2024 - Now*
