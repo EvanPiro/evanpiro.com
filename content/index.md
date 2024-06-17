@@ -41,6 +41,7 @@ Forward-thinking technologist with over a decade of professional software engine
 **Securitize, NYC** — *Software Engineer Lead*  
 *November 2019 - July 2020* 
 - Led development of an international payment system for dividend and interest distributions supporting investors from 150 countries with reporting of KYC, AML, and shareholder status to the SEC built in Next.js, Node.js, MySQL, and AWS.
+- Here is the press for the application I architectured and lead implementation. [Coindesk article](https://www.coindesk.com/markets/2020/06/08/securitize-debuts-on-chain-royalty-payouts-for-lotterycom-security-token/)
 
 **AudienceView, NYC** — *Application Developer*  
 *June 2015 - June 2019*
